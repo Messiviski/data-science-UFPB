@@ -1,3 +1,3 @@
 import tableview
 
-tableview.print_csv("oscars.csv")
+tableview.print_table("oscars.csv")
