@@ -20,7 +20,7 @@ def print_table(filepath):
   first_line_values = first_line.split(",")
   print(f"|{'|'.join(first_line_values)}|")
 
-  separators = ["-" for i in first_line_values]
+  separators = ["-"*len(i) for i in first_line_values]
   print(f"|{'|'.join(separators)}|")
 
   for line in csv_file:
