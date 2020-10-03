@@ -1,4 +1,8 @@
 def print_csv(filepath):
+  """
+  Print each line of a CSV file.
+  """
+
   csv_file = open(filepath)
 
   for line in csv_file:
@@ -7,6 +11,9 @@ def print_csv(filepath):
   csv_file.close()
 
 def print_table(filepath):
+  """
+  Print a markdown table.
+  """
   csv_file = open(filepath)
 
   first_line = csv_file.readline().strip()
